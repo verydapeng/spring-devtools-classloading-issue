@@ -1,4 +1,4 @@
-= How to produce
+# How to produce
 
 ```bash
 mvn clean compile
@@ -15,17 +15,19 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 
 
 
-= It works fine if we run
+# It works fine 
+
+if we run
 
 ```bash
 cd spring-boot
 mvn spring-boot:run -am
 ```
 
- or
+or
 
 ```bash
 cd spring-boot
- mvn package -am
- java -jar target/spring-boot-1.0-SNAPSHOT.jar
+mvn package -am
+java -jar target/spring-boot-1.0-SNAPSHOT.jar
 ```
